@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px) {
+    body {
+      font-size: .7rem;
+    }
+
+    h2 {
+      font-size: 2em;
+    }
+  }
