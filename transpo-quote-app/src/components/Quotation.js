@@ -25,10 +25,6 @@ const Quotation = () => {
 
     return (
     <div className='container-fluid px-0'>
-        <div className='header jumbotron text-left  py-4'>
-            <h2>Transportation Cost Quotation</h2>
-            <p>Estimate your transportation cost. At least know how much you're paying for diesel 😉 </p>
-        </div>
         <div className='container'>
             <div className="card">
                 <Header default={dieselData} onChangeHeaderData={headerDataChange}/>
