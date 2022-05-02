@@ -16,7 +16,7 @@ export let ITEMIZED_COST = [
   ];
 
 const compute = (dieselData, distance) => {  
-    if (+distance === 0 || !distance) {
+    if (+distance === 0 || !distance || +dieselData.price === 0 || +dieselData.consumption === 0) {
         ITEMIZED_COST.map( item => item.cost = 0 );
         return [0, ITEMIZED_COST];
     }
